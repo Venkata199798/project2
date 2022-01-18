@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?sxpxlv');
+  src:  url('fonts/icomoon.eot?sxpxlv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?sxpxlv') format('truetype'),
+    url('fonts/icomoon.woff?sxpxlv') format('woff'),
+    url('fonts/icomoon.svg?sxpxlv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+  padding: 10px;
+}
+.menubar::after{
+  content: "\e901";
+  color: #fff;
+  font-family: "icomoon";
+  font-size: 6rem;
+  margin-top: 1rem;
+}
+
+.menubar{
+  display: flex;
+  justify-content: flex-end;
+}
+/* @media (max-width: 480px){
+  .menubar{
+    padding: 20px;
+    margin-right: 20px;
+  }
+} */
+.icon-facebook-svgrepo-com:before {
+  content: "\e903";
+
+}
+.icon-twitter-black-shape-svgrepo-com:before {
+  content: "\e906";
+}
+
+.icon-instagram-seeklogocom:before {
+  content: "\e909";
+}
+
+.icon-copyright-symbol-svgrepo-com:before {
+  content: "\e90a";
+}
+
